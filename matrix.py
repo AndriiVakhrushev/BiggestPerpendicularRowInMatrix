@@ -18,6 +18,10 @@ class Matrix:
         self._sum_of_z()
 
     def print_matrix(self):
+        """
+        Display matrix
+        :return: matrix as a string
+        """
         return '\n'.join([('%s' % line) for line in [lines for lines in self.matrix]])
 
     def _sum_of_x(self):
@@ -48,6 +52,9 @@ class Matrix:
         return list(reversed(list_of_indexes))
 
     def calc_max_sum(self):
+        """
+        Method for find 3 perpendicular for each other lines in cube matrix
+        """
         self._main()
         max_elems = {}
         for line_sum_x in self.sorted_x:
