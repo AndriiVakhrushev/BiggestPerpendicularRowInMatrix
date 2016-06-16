@@ -25,7 +25,7 @@ After that you can call
 
     matrix.result
     
-for get result of calculation. result format is x-y-z.x-y-z.x-y-z where 0 show in it is
+for get result of calculation. result format is x-y-z.x-y-z.x-y-z where 0 show in what plane it is
 
     0-15-10.5-0-10.5-32-0
 
